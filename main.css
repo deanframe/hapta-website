@@ -4,10 +4,20 @@ html {
 }
 
 h2 {
-    font-size: 2em;
     text-align: center;
+    width: 50%;
+    font-size: 2em;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 0.1em;
     color: #233164;
+}
+
+#ptalogo {
+    position: absolute;
+    max-width: 15%;
+    height: auto;
+    float: left;
 }
 
 .nav {
