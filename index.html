@@ -4,30 +4,49 @@
         <meta charset="utf-8">
         <title>Holly Avenue Elementary School PTA</title>
         <meta name= "description" content="The website of the Holly Avenue Elementary School PTA">
-        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
     <body>
-        <div class="header">
-            <img id="ptalogo" src="holyaveptalogo-updated.png" alt="Holly Avenue PTA Logo">
-                <h2>Holly Avenue Elementary School PTA</h2>
-            <p>360 West Duarte Road, Arcadia, CA 91007</p>
+        <nav class="navbar navbar-light navbar-expand-sm"
+             style="background-color:lightskyblue">
+            <div class="container">
+                <a class="navbar-brand d-none d-sm-inline-block" href="index.html">
+                    <img src="holyaveptalogo-updated.png" style="width:120px" alt="Holly Avenue PTA">
+                </a>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="calendar.html">Calendar</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-dark navbar-expand-sm"
+             style="background-color: navy">
+            <div class="container">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link py-0" href=index-esp.html>
+                        Lee esta página en español</a>
+                    <a class="nav-item nav-link py-0" href=index-ch.html>
+                        阅读中文页面</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h2 class="text-center mt-3">Holly Avenue Elementary School PTA</h2>
+            <h6 class="text-center" style="margin-bottom: 1.5em;">360 West Duarte Road, Arcadia, CA 91007</h6>
+            <img class="mx-auto d-block img-fluid" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffarm3.staticflickr.com%2F2052%2F1522296141_014f8d57fb_z.jpg&f=1&nofb=1">
+            <p class="mt-2 text-center">Welcome to the official website of the Holly Avenue PTA!</p>
+            <div class="text-center mb-3">
+                <button type="button" class="btn btn-warning">Volunteer with us! (Konstella)</button>
+                <button type="button" class="btn btn-warning">Donate!</button>
+            </div>
+            <h4>Connect with us!</h4>
+            <p>To keep up with PTA events, feel free to view our 
+                <a href="calendar.html">google calendar</a> or our <a href="https://www.facebook.com/Holly-Ave-PTA-1636839899940465/">Facebook page</a>.</p>
+            <p class="mb-4">If you have any questions, comments or concerns, please <a href="contact.html">contact</a> us!</p>
         </div>
-        <div class="nav">
-            <ul id="navlist">
-                <li id="navlistitem"><a href="index.html">Home</a></li>
-                <li id="navlistitem"><a href="calendar.html">Calendar</a></li>
-                <li id="navlistitem"><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="main">
-            <img id="mainimg" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffarm3.staticflickr.com%2F2052%2F1522296141_014f8d57fb_z.jpg&f=1&nofb=1">
-            <p>Welcome to the official website of the Holly Avenue PTA!</p>
-            <p>If you would like to volunteer, you may do so <a href="https://www.konstella.com/">here</a>.</p>
-            <p>If you would like to donate, you may do so <a href=https://app.99pledges.com/fund/hollyavenuePTA>here</a>.</p>
-            <p>View our Facebook feed below:</p>
-        </div>
-        <div class="fbfeed">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHolly-Ave-PTA-1636839899940465%2F&tabs=timeline&width=500&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="500" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>

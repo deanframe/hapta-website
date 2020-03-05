@@ -2,35 +2,39 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Holly Avenue Elementary School PTA</title>
+        <title>Contact Holly Avenue Elementary School PTA</title>
         <meta name= "description" content="The website of the Holly Avenue Elementary School PTA">
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <link rel="stylesheet" type="text/css" href="contact.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
     <body>
-        <div class="header">
-            <img id="ptalogo" src="holyaveptalogo-updated.png" alt="Holly Avenue PTA Logo">
-                <h2>Holly Avenue Elementary School PTA</h2>
-            <p>360 West Duarte Road, Arcadia, CA 91007</p>
-        </div>
-        <div class="nav">
-            <ul id="navlist">
-                <li id="navlistitem"><a href="index.html">Home</a></li>
-                <li id="navlistitem"><a href="calendar.html">Calendar</a></li>
-                <li id="navlistitem"><a href="contact.html">Contact</a></li>
-            </ul> 
-        </div>
-        <div class="main">
-            <div class="fig">
-                <figure id="presidentfig">
-                    <img id="presidentimg" src="pta-president%20photo.jpg"/>
-                    <figcaption>President Subi Jan</figcaption>
-                </figure>
+        <nav class="navbar navbar-light navbar-expand-sm"
+             style="background-color:lightskyblue">
+            <div class="container">
+                <a class="navbar-brand d-none d-sm-inline-block" href="index.html">
+                    <img src="holyaveptalogo-updated.png" style="width:120px" alt="Holly Avenue PTA">
+                </a>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="calendar.html">Calendar</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
             </div>
-            <h2>Contact</h2>
-            <div class="execboardlist">
-                <h3>Executive Board</h3>
-            <ul>
+        </nav>
+        <nav class="navbar navbar-dark navbar-expand-sm"
+             style="background-color: navy">
+            <div class="container">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link py-0" href=index-esp.html>
+                        Lee esta página en español</a>
+                    <a class="nav-item nav-link py-0" href=index-ch.html>
+                        阅读中文页面</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h2 class="text-center mt-3">Contact</h2>
+            <h4>Executive Board</h4>
+            <ul class="mb-4">
                 <li>President - Subi Jan <a href="mailto:hollyaveptap@gmail.com">email</a></li>
                 <li>Executive VP - Claudia Bocanegra <a href="mailto:haptaevp@gmail.com">email</a></li>
                 <li>1st VP Publicity - Lucy Barnett <a href="mailto:publicityhapta@gmail.com">email</a></li>
@@ -45,7 +49,7 @@
                 <li>Parliamentarian - Dominique Yonemoto <a href="mailto:haptaparliamentarian@gmail.com">email</a></li>
                 <li>Mentor Parent <a href="mailto:hollyavementorparent@gmail.com">email</a></li>
             </ul>
-            </div>
+            <img src="holly-students.jpg" class="img-fluid mx-auto d-block mb-4">
         </div>
     </body>
 </html>

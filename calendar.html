@@ -2,25 +2,42 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Holly Avenue Elementary School PTA</title>
+        <title>Calendar- Holly Avenue Elementary School PTA</title>
         <meta name= "description" content="The website of the Holly Avenue Elementary School PTA">
-        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="calendar.css">
     </head>
     <body>
-        <div class="header">
-            <img id="ptalogo" src="holyaveptalogo-updated.png" alt="Holly Avenue PTA Logo">
-                <h2>Holly Avenue Elementary School PTA</h2>
-            <p>360 West Duarte Road, Arcadia, CA 91007</p>
-        </div>
-        <div class="nav">
-            <ul id="navlist">
-                <li id="navlistitem"><a href="index.html">Home</a></li>
-                <li id="navlistitem"><a href="calendar.html">Calendar</a></li>
-                <li id="navlistitem"><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="calendar">
-          <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=aG9sbHlhdmVwdGFwQGdtYWlsLmNvbQ&amp;color=%233F51B5&amp;mode=MONTH&amp;showTz=1&amp;showPrint=1&amp;showTabs=1&amp;showCalendars=0&amp;title=Holly%20Avenue%20PTA%20Calendar" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <nav class="navbar navbar-light navbar-expand-sm"
+             style="background-color:lightskyblue">
+            <div class="container">
+                <a class="navbar-brand d-none d-sm-inline-block" href="index.html">
+                    <img src="holyaveptalogo-updated.png" style="width:120px" alt="Holly Avenue PTA">
+                </a>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="calendar.html">Calendar</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-dark navbar-expand-sm"
+             style="background-color: navy">
+            <div class="container">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link py-0" href=index-esp.html>
+                        Lee esta página en español</a>
+                    <a class="nav-item nav-link py-0" href=index-ch.html>
+                        阅读中文页面</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h2 class="text-center mt-3">Calendar</h2>
+            <p class="text-center">Below is the Google Calendar for keeping up with Holly Avenue PTA events. To print the calendar, click the print button located near the top right of the calendar. To add this calendar to yor other Google calendars, click the + button on the bottom right of the calendar.</p>
+            <div class="responsive-calendar">
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=aG9sbHlhdmVwdGFwQGdtYWlsLmNvbQ&amp;color=%233F51B5&amp;mode=MONTH&amp;showTz=1&amp;showPrint=1&amp;showTabs=1&amp;showCalendars=0&amp;title=Holly%20Avenue%20PTA%20Calendar" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
         </div>
     </body>
 </html>
